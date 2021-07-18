@@ -19,7 +19,8 @@
   "homepage": "https://github.com/andresmonsa/Express5#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "standard": "^16.0.3"
   },
   "devDependencies": {
     "colors": "^1.4.0"
