@@ -1,8 +1,9 @@
-const networkPost = require('../components/post/network');
+const networkPost = require('../components/post/network')
 
 const routes = (server) => {
-    server.use('/post', networkPost )
+  server.use('/post', networkPost)
 }
+
 module.exports = routes
 
 // const posts = [];
@@ -21,17 +22,16 @@ module.exports = routes
 
 // server.get('/post/:name', (req, res) => {
 //     let name = req.params.name;
-//     let name_result = posts.filter(post => post.name === name) 
+//     let name_result = posts.filter(post => post.name === name)
 //     let messages = [];
 //     name_result.forEach(result => {
 //         messages.push(result.message)
 //     })
 //     console.log('Messages'.inverse.yellow, messages)
 //     console.log('Result'.inverse.blue, name_result)
-//     res.send(messages)  
+//     res.send(messages)
 
 // })
 // server.get('/post', (req, res) => {
-//  res.send('Por favor ingresa un nombre') 
+//  res.send('Por favor ingresa un nombre')
 // })
-

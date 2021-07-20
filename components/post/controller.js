@@ -28,5 +28,4 @@ module.exports = {
   newMessage,
   readMessages,
   readUserMessages
-
 }

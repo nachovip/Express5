@@ -1,4 +1,4 @@
-const port = 3001;
-const host = 'localhost';
+const port = 3000
+const host = 'localhost'
 
-module.exports = {port, host}
+module.exports = { port, host }
